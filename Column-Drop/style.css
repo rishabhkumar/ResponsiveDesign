@@ -1,0 +1,50 @@
+  /* Small screen lesser than 480px*/
+
+		.container {
+            /* add code */
+	        display: ;
+	        display: -webkit-flex;
+	        flex-flow: ;
+	        -webkit-flex-flow: row wrap;
+		}
+
+       .container div {
+       	    min-height: 150px;
+        	min-width: 150px;
+       }
+
+       .box1, .box2, .box3 {
+			width: 100%;
+       }
+			 .box1 {
+				 background-color: red;
+			 }
+			 .box2 {
+				 background-color: blue;
+			 }
+			 .box3 {
+				 background-color: green;
+			 }
+
+
+	@media screen and (min-width: 800px) {
+
+        .box1 {
+					order: 2;
+					width: 60%;
+        }
+
+        .box2 {
+        	width: 20%;
+					order: 1;
+        }
+
+        .box3 {
+        	width: 20%;
+					order: 3;
+        }
+    }
+
+
+
+     
